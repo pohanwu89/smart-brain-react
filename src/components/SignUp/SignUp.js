@@ -23,7 +23,7 @@ class SignUp extends Component {
   };
 
   onSubmitSignUp = () => {
-    fetch('http://localhost:3000/signup', {
+    fetch('https://jonas-smart-brain.herokuapp.com/signup', {
       method: 'post',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
